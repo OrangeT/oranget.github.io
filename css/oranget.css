@@ -3,11 +3,16 @@ h2 {
 }
 
 h4 {
+	margin-bottom: 1em;
 }
 
 .col-lg-6 {
 	padding-left: 30px;
 	padding-right: 30px;
+}
+
+.col-lg-6 p {
+	margin-bottom: 3em;
 }
 
 .row > p {
