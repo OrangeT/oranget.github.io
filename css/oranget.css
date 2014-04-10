@@ -1,0 +1,21 @@
+h2 {
+	text-align: center;
+}
+
+h4 {
+}
+
+.col-lg-6 {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.row > p {
+	text-align: center;
+}
+
+footer {
+	margin-top: 3em;
+	margin-bottom: 1em;
+	text-align: center;
+}
