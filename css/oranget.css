@@ -10,7 +10,7 @@ body {
 .container .jumbotron {
 	margin-top: 20px;
 	border-radius: 0;
-	background: rgba(200, 200, 200, .4);
+	background: rgba(200, 200, 200, .6);
 	background-image: url(../img/tentacle.png);
 	background-position: 0 10px;
 	background-repeat: no-repeat;
@@ -54,21 +54,33 @@ body {
 
 h2 {
 	text-align: center;
+	font-family: Montserrat, sans-serif;
+	font-weight: 800;
+	font-size: 36pt;
+	margin: 15px;
+	text-transform: uppercase;
+	color: orange;
+	background: black;
 }
 
 h4 {
 	margin-top: 0em;
 	margin-bottom: 0em;
 	padding: 10px;
-	padding-bottom: 1em;
-	background: rgba(200, 200, 200, .4);
+	background: rgba(200, 200, 200, .6);
+	background: black;
+	text-align: center;
+	font-family: Orbitron, sans-serif;
+	font-size: 18pt;
+	color: yellowgreen;
+	text-transform: uppercase;
 }
 
 .col-lg-6 p {
 	margin-bottom: 3em;
 	padding: 10px;
 	padding-bottom: 1em;
-	background: rgba(200, 200, 200, .4);
+	background: rgba(200, 200, 200, .6);
 }
 
 .row > p {
