@@ -1,18 +1,50 @@
+body {
+	background: orange url(../img/skulls-colours.png);
+}
+
+.jumbotron h1 {
+	display:inline-block;
+	width: auto;
+	background: black;
+	padding: 10px;
+}
+
+.jumbotron h1 .orange {
+	display: block;
+	line-height: 63pt;
+	font-size: 72pt;
+	letter-spacing: -4px;
+}
+
+.jumbotron h1 .tentacle {
+	display: block;
+	line-height: 42pt;
+	font-size: 42pt;
+	letter-spacing: 7px;
+	padding-top: 5px;
+	padding-left: 6px;
+	padding-top 20px;
+	background: black;
+}
+
+
 h2 {
 	text-align: center;
 }
 
 h4 {
-	margin-bottom: 1em;
-}
-
-.col-lg-6 {
-	padding-left: 30px;
-	padding-right: 30px;
+	margin-top: 0em;
+	margin-bottom: 0em;
+	padding: 10px;
+	padding-bottom: 1em;
+	background: rgba(200, 200, 200, .4);
 }
 
 .col-lg-6 p {
 	margin-bottom: 3em;
+	padding: 10px;
+	padding-bottom: 1em;
+	background: rgba(200, 200, 200, .4);
 }
 
 .row > p {
@@ -23,4 +55,48 @@ footer {
 	margin-top: 3em;
 	margin-bottom: 1em;
 	text-align: center;
+}
+
+.container {
+	max-width: 900px;
+}
+
+.container .jumbotron {
+	margin-top: 20px;
+	border-radius: 0;
+	background: rgba(200, 200, 200, .4);
+}
+
+.orange {
+	color: orange;
+	text-outline: 2px solid black;
+
+
+	/*-webkit-text-stroke: 5px black;*/
+	/*-webkit-text-fill-color: orange;*/
+
+	/*text-shadow: -4px -4px 1px #000,*/
+			/*4px -4px 1px #000,*/
+			/*-4px 4px 1px #000,*/
+			/*4px 4px 1px #000;*/
+
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+.tentacle {
+	color: yellowgreen;
+
+	/*-webkit-text-stroke: 3px black;*/
+	/*-webkit-text-fill-color: green;*/
+
+	text-shadow: -2px -2px 0 #000,
+			2px -2px 0 #000,
+			-2px 2px 0 #000,
+			2px 2px 0 #000;
+	/*font-family: 'Days One', sans-serif;*/
+	font-family: Orbitron, sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
 }
