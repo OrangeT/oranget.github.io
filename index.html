@@ -107,13 +107,28 @@
                                 <div class="row">
                                         <h2>Contact Us</h2>
 
-                                        <p>Interested?  Drop us an <a href="mailto:info@orangetentacle.co.uk">e-mail</a>.</p>
+                                        <p>Interested?  Either use the form below or drop us an <a href="mailto:info@orangetentacle.co.uk">e-mail</a>.</p>
+
+					<form action="mailto:hello@orangetentacle.co.uk?subject=enquiry" enctype="text/plain" method="POST">
+						<label for="name">Name</label>
+						<input type="text" name="name" placeholder="Your Name" required />
+						<label for="mail">E-Mail Address</label>
+						<input type="email" placeholder="Your E-Mail Address" required />
+						<label for="phone">Phone Number</label>
+						<input type="tel" placeholder="Your Phone Number" />
+						<label for="message">Message</label>
+						<textarea type="text" name="message" required></textarea>
+
+						<button type="submit">Send</button>
+					</form>
+
                                 </div>
 
                         </div> <!-- /container -->
 
                         <footer>
-                                &copy; 2014 Orange Tentacle Ltd.
+				&copy; 2014 Orange Tentacle Ltd.<br />
+				Orange Tentacle Ltd. is a limited company registered in England and Wales, number 06512339.
                         </footer>
 
 
