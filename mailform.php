@@ -4,10 +4,10 @@
   $phonenumber = $_HEADER['phonenumber'];
   $message = $_HEADER['message'];
 
-  $body = "Email: " + $email + "\n"
-	  + "Name: " + $name + "\n"
-	  + "Phone Number: " + $phonenumber + "\n"
-	  + "Message: \n" + $message;
+  $body = "Email: " . $email . "\n"
+	  . "Name: " . $name . "\n"
+	  . "Phone Number: " . $phonenumber . "\n"
+	  . "Message: \n" . $message;
 
   mail( "hello@orangetentacle.co.uk", "Website Contact",
     $body, "From: $email" );
