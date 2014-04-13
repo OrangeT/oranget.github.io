@@ -109,13 +109,13 @@
 
                                         <p>Interested?  Either use the form below or drop us an <a href="mailto:info@orangetentacle.co.uk">e-mail</a>.</p>
 
-					<form action="mailto:hello@orangetentacle.co.uk?subject=enquiry" enctype="text/plain" method="POST">
+					<form action="mailform.php" method="POST">
 						<label for="name">Name</label>
 						<input type="text" name="name" placeholder="Your Name" required />
 						<label for="mail">E-Mail Address</label>
-						<input type="email" placeholder="Your E-Mail Address" required />
+						<input type="email" name="email" placeholder="Your E-Mail Address" required />
 						<label for="phone">Phone Number</label>
-						<input type="tel" placeholder="Your Phone Number" />
+						<input type="tel" name="phonenumber" placeholder="Your Phone Number" />
 						<label for="message">Message</label>
 						<textarea type="text" name="message" required></textarea>
 
