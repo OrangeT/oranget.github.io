@@ -146,7 +146,8 @@ form {
 }
 
 form label {
-	width: 40%%;
+	width: 40%;
+	display: inline-block;
 	
 }
 
