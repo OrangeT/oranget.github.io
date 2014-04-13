@@ -1,8 +1,8 @@
 <?php
-  $email = $_HEADER['email'];
-  $name = $_HEADER['name'];
-  $phonenumber = $_HEADER['phonenumber'];
-  $message = $_HEADER['message'];
+  $email = $_POST['email'];
+  $name = $_POST['name'];
+  $phonenumber = $_POST['phonenumber'];
+  $message = $_POST['message'];
 
   $body = "Email: " . $email . "\n"
 	  . "Name: " . $name . "\n"
