@@ -10,7 +10,7 @@
 	  . "Message: \n" . $message;
 
   mail( "hello@orangetentacle.co.uk", "Website Contact",
-    $body, "From: website@orangetentacle.co.uk" );
+    $body, "From: hello@orangetentacle.co.uk" );
 
   header( "Location: http://www.orangetentacle.co.uk/thanks.html" );
 ?>
